@@ -5,14 +5,30 @@
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>みずゆの森 ボイスMOD</title>
+  <title>みずゆの森 VoiceMod</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 </head>
 <body>
 <div class="container-fluid">
+  <div class="sticky-top" id="header">
+    <div class="d-none d-md-block col border">
+      <ul class="nav nav-pills nav-justified">
+        <li>みずゆの森</li>
+        <li class="nav-item">
+          <a href="#" class="nav-link" data-toggle="tab">TOP</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link" data-toggle="tab">Link-1</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link" data-toggle="tab"></a>
+        </li>
+      </ul>
+    </div>
+  </div>
   <div class="col mb-2 border-bottom text-center">
-    <img src="https://placehold.jp/800x500.png" alt="top image">
+    <img src="https://placehold.jp/500x300.png" alt="top image">
     <h2>みずゆの森</h2>
   </div>
   <div class="container main-contents">
@@ -25,7 +41,7 @@
           <p>※初めてVoiceModを使用される方は「banks,mods」フォルダがない可能性があります。<br>
             ご自身でフォルダを作成し、その中に配置してください。</p>
           <p>もし何らかの不具合がありましたらお知らせ頂けると大変有難いです。</p>
-          <p>連絡先は<a href="" class="text-secondary">こちら</a></p>
+          <p>連絡先は<a href="#address" class="text-secondary">こちら</a></p>
         </div>
         <div class="alert-warning">
           <p>MODはゲームプレイを個人的に楽しむ範囲でご利用ください。<br>
@@ -43,26 +59,33 @@
           <p></p>
         </div>
         <div>
-          <h2 class="mt-5 border-bottom" id="noctshill">noctshill</h2>
+          <h2 class="mt-5 border-bottom" id="syani">シャニマス</h2>
           <div class="mt-2 border-bottom">
             <h4 id="hinanavoice">市川雛菜 voice MOD</h4>
-            <p>本文　本文　本文　本文 <img src="https://placehold.jp/400x300.png" alt="dummy image"></p>
-            <p>本文　本文　本文　本文<br>本文　本文　本文　本文</p>
-            <p>本文　本文　本文　本文</p>
+            <img src="image/icon_hinana.png" alt="hinana">
+            <p>雛菜がしあわせなのがいちばんさいこ～♡ そう思うよね？</p>
+            <p>ラジオチャット,空母専用ボイス対応 ,潜水艦ボイス未対応</p>
+            <p>「やはー、あはー」と言って発砲,発射します。<br>魚雷が多段ヒットすると「やはー、やはー、やはー・・・」と連続でボイスが再生されます。</p>
+            <p><a href="#">Download</a></p>
           </div>
           <div class="mt-2 border-bottom">
             <h4 id="koitovoice">福丸小糸 voice MOD</h4>
+            <img src="https://placehold.jp/100x100.png" alt="koito">
+            <p>ぴゃ！？　ななな、なんですか……！　わたし、何かしちゃいましたか！？</p>
+            <h5>製作中</h5>
+            <p></p>
+          </div>
+          <div class="mt-2 border-bottom">
+            <h4 id="manovoice">櫻木真乃 voice MOD</h4>
+            <img src="https://placehold.jp/100x100.png" alt="mano">
+            <p>ぽかぽかのお日様みたいにファンのみなさんに笑顔を届けたいですっ</p>
             <h5>製作中</h5>
             <p></p>
           </div>
         </div>
-        <div class=" mt-5 mb-5">
-          <h2 class="border-bottom" id="illumination">illumination STARS</h2>
-          <div class="mt-2 border-bottom">
-            <h4 id="manovoice">櫻木真乃 voice MOD</h4>
-            <h5>製作中</h5>
-            <p></p>
-          </div>
+        <div class="mt-5" id="address">
+          <h3 class="mt-5 border-bottom">連絡先</h3>
+          <p>Twitter <a href="https://twitter.com/mizuyu_85" target="_blank">瑞柚＠みずゆ</a></p>
         </div>
       </div>
       <div class="col-lg-3 border-left">
@@ -72,16 +95,14 @@
               <li><a href="#importmethod">導入方法</a></li>
               <li><a href="#voicemod">voice mod</a></li>
               <ul>
-                <li><a href="#noctshill">noctshill</a></li>
+                <li><a href="#syani">シャニマス</a></li>
                 <ul>
                   <li><a href="#hinanavoice">市川雛菜</a></li>
                   <li><a href="#koitovoice">福丸小糸</a></li>
-                </ul>
-                <li><a href="#illumination">illumination STARS</a></li>
-                <ul>
                   <li><a href="#manovoice">櫻木真乃</a></li>
                 </ul>
               </ul>
+              <li><a href="#address">連絡先</a></li>
             </ul>
           </div>
         </div>
