@@ -1,3 +1,9 @@
 body {
-    background-color: #808080;
+    background-color: lightblue;
+}
+#main-contents{
+    background-color: aliceblue;
+}
+#sab-contents{
+    background-color: aliceblue;
 }
