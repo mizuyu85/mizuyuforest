@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja" xmlns="http://www.w3.org/1999/html">
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport"
@@ -14,135 +14,146 @@
 <body>
 <div class="container-fluid">
   <div id="header" class="sticky-top d-none d-md-block">
-    <div class="row text-center ">
-      <div class="col">
-        <h2>みずゆの森</h2>
-      </div>
-      <div class="col border-left">
-        <h2><a href="voicemod.html">Voice mod</a></h2>
-      </div>
-      <div class="col border-left">
-        <h2><a href="uimod.html">UI mod</a></h2>
-      </div>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">みずゆの森</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="sticky-top d-sm-block d-md-none">
-      <div class="dropdown text-right ">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-          Menue
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-          <button class="dropdown-item" type="button"><a href="#">TOP</a></button>
-          <button class="dropdown-item" type="button"><a href="uimod.html">UI mod</a></button>
-          <button class="dropdown-item" type="button"><a href="voicemod.html">voice mod</a></button>
-          <button class="dropdown-item" type="button"><a href="#address">連絡先</a></button>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="voicemod.html">Voice mod <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="uimod.html">UI mod</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
       </div>
-    </div>
-    <div class="col mb-2 text-center d-none d-md-block">
-      <img src="images/wows-USA.jpg" alt="top image">
-    </div>
-    <div class="container">
-      <div class="row">
-        <div id="main-contents" class="col">
-
-          <div>
-            <h2 class="mt-2 text-center d-sm-block d-md-none">みずゆの森</h2>
-            <h2 class="mt-3 border-bottom" id="voicemod">voice MOD</h2>
-          </div>
-          <div>
-            <h2 class="mt-5 border-bottom" id="syani">シャニマス</h2>
-            <div class="mt-2 border-bottom">
-              <h4 id="hinanavoice">市川雛菜 voice MOD</h4>
-              <img src="images/icon_hinana.jpg" alt="hinana">
-              <p>雛菜がしあわせなのがいちばんさいこ～♡ そう思うよね？</p>
-              <p>ラジオチャット,空母専用ボイス対応 ,潜水艦ボイス未対応</p>
-              <p>「やはー、あはー」と言って発砲,発射します。<br>魚雷が多段ヒットすると「やはー、やはー、やはー・・・」と連続でボイスが再生されます。</p>
-              <p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                     class="bi bi-cloud-arrow-down-fill" viewBox="0 0 16 16">
-                  <path
-                      d="M8 2a5.53 5.53 0 0 0-3.594 1.342c-.766.66-1.321 1.52-1.464 2.383C1.266 6.095 0 7.555 0 9.318 0 11.366 1.708 13 3.781 13h8.906C14.502 13 16 11.57 16 9.773c0-1.636-1.242-2.969-2.834-3.194C12.923 3.999 10.69 2 8 2zm2.354 6.854-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 1 1 .708-.708L7.5 9.293V5.5a.5.5 0 0 1 1 0v3.793l1.146-1.147a.5.5 0 0 1 .708.708z"/>
-                </svg>
-                <a href="https://t.co/9rjggpLHOP?amp=1" target="_blank">Download</a></p>
-            </div>
-            <div class="mt-2 border-bottom">
-              <h4 id="koitovoice">福丸小糸 voice MOD</h4>
-              <img src="images/icon_koito.jpg" alt="koito">
-              <p>ぴゃ！？　ななな、なんですか……！　わたし、何かしちゃいましたか！？</p>
-              <h5>製作中</h5>
-              <p></p>
-            </div>
-            <div class="mt-2 border-bottom">
-              <h4 id="manovoice">櫻木真乃 voice MOD</h4>
-              <img src="images/icon_mano.jpg" alt="mano">
-              <p>ぽかぽかのお日様みたいにファンのみなさんに笑顔を届けたいですっ</p>
-              <h5>製作中</h5>
-              <p></p>
-            </div>
-          </div>
-          <div>
-            <h2 class="mt-5 border-bottom" id="importmethod">導入方法</h2>
-            <p>DLされたファイルを解凍し、出てきたフォルダをres_mods内の現バージョンフォルダに配置して下さい。<br>
-              例：～\World_of_Warships\bin\最新の数字名フォルダ\res_mods\banks\mods\Hinana_Voice</p>
-            <p>※初めてVoiceModを使用される方は「banks,mods」フォルダがない可能性があります。<br>
-              ご自身でフォルダを作成し、その中に配置してください。</p>
-            <p>もし何らかの不具合がありましたらお知らせ頂けると大変有難いです。</p>
-          </div>
-          <div class="alert-warning">
-            <p>MODはゲームプレイを個人的に楽しむ範囲でご利用ください。<br>
-              MOD導入は自己責任でお願いいたします。プレイ動画へのご利用はご自由に。<br>なにか問題があれば削除します。
-          </div>
-          <div>
-            <p>VoiceModの作成方法は<a
-                href="https://forum.worldofwarships.asia/topic/14718-mod-voice-mod/?page=5&tab=comments#comment-448943"
-                target="_blank">こちら</a>のROKAさんのマニュアルが大変分かりやすいです。</p>
-          </div>
-          <div>
-            <div class="mt-5" id="address">
-              <h3 class="mt-5 border-bottom">連絡先</h3>
-              <p>Twitter <a href="https://twitter.com/mizuyu_85" target="_blank">瑞柚＠みずゆ</a></p>
-            </div>
-          </div>
-        </div>
-        <div id="sab-contents" class="col-3 d-none d-lg-block border-left">
-          <div class="mt-4">
-            <div>
-              <ul>
-                <li>UI MOD</li>
-                <ul>
-                  <li><a href="#syani">シャニマス</a></li>
-                  <ul>
-                    <li><a href="#hinanavoice">市川雛菜</a></li>
-                  </ul>
-                </ul>
-                <li>Voice MOD</li>
-                <ul>
-                  <li><a href="#syani">シャニマス</a></li>
-                  <ul>
-                    <li><a href="#hinanavoice">市川雛菜</a></li>
-                    <li><a href="#koitovoice">福丸小糸</a></li>
-                    <li><a href="#manovoice">櫻木真乃</a></li>
-                  </ul>
-                </ul>
-                <li><a href="#address">連絡先</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="footer" class="mt-5">
-
+    </nav>
+  </div>
+  <div class="sticky-top d-sm-block d-lg-none">
+    <div class="dropdown text-right ">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+        Menue
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+        <a href="voicemod.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">voice mod</a><br>
+        <a href="uimod.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">UI mod</a><br>
+        <a href="#address" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">連絡先</a>
       </div>
     </div>
   </div>
+  <div class="col mb-2 text-center d-none d-md-block">
+    <img src="images/wows-USA.jpg" alt="top image">
+  </div>
+  <div class="container">
+    <div class="row">
+      <div id="main-contents" class="col">
+        <div>
+          <h2 class="mt-2 text-center d-sm-block d-md-none">みずゆの森</h2>
+          <h2 class="mt-3 border-bottom" id="voicemod">voice MOD</h2>
+        </div>
+        <div>
+          <h2 class="mt-5 border-bottom" id="syani">シャニマス</h2>
+          <div class="mt-2 border-bottom">
+            <h4 id="hinanavoice">市川雛菜 voice MOD</h4>
+            <img src="images/icon_hinana.jpg" alt="hinana">
+            <p>雛菜がしあわせなのがいちばんさいこ～♡ そう思うよね？</p>
+            <p>ラジオチャット,空母専用ボイス対応 ,潜水艦ボイス未対応</p>
+            <p>「やはー、あはー」と言って発砲,発射します。<br>魚雷が多段ヒットすると「やはー、やはー、やはー・・・」と連続でボイスが再生されます。</p>
+            <p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                   class="bi bi-cloud-arrow-down-fill" viewBox="0 0 16 16">
+                <path
+                    d="M8 2a5.53 5.53 0 0 0-3.594 1.342c-.766.66-1.321 1.52-1.464 2.383C1.266 6.095 0 7.555 0 9.318 0 11.366 1.708 13 3.781 13h8.906C14.502 13 16 11.57 16 9.773c0-1.636-1.242-2.969-2.834-3.194C12.923 3.999 10.69 2 8 2zm2.354 6.854-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 1 1 .708-.708L7.5 9.293V5.5a.5.5 0 0 1 1 0v3.793l1.146-1.147a.5.5 0 0 1 .708.708z"/>
+              </svg>
+              <a href="https://t.co/9rjggpLHOP?amp=1" target="_blank">Download</a></p>
+          </div>
+          <div class="mt-2 border-bottom">
+            <h4 id="koitovoice">福丸小糸 voice MOD</h4>
+            <img src="images/icon_koito.jpg" alt="koito">
+            <p>ぴゃ！？　ななな、なんですか……！　わたし、何かしちゃいましたか！？</p>
+            <h5>製作中</h5>
+            <p></p>
+          </div>
+          <div class="mt-2 border-bottom">
+            <h4 id="manovoice">櫻木真乃 voice MOD</h4>
+            <img src="images/icon_mano.jpg" alt="mano">
+            <p>ぽかぽかのお日様みたいにファンのみなさんに笑顔を届けたいですっ</p>
+            <h5>製作中</h5>
+            <p></p>
+          </div>
+        </div>
+        <div>
+          <h2 class="mt-5 border-bottom" id="importmethod">導入方法</h2>
+          <p>DLされたファイルを解凍し、出てきたフォルダをres_mods内の現バージョンフォルダに配置して下さい。<br>
+            例：～\World_of_Warships\bin\最新の数字名フォルダ\res_mods\banks\mods\Hinana_Voice</p>
+          <p>※初めてVoiceModを使用される方は「banks,mods」フォルダがない可能性があります。<br>
+            ご自身でフォルダを作成し、その中に配置してください。</p>
+          <p>もし何らかの不具合がありましたらお知らせ頂けると大変有難いです。</p>
+        </div>
+        <div class="alert-warning">
+          <p>MODはゲームプレイを個人的に楽しむ範囲でご利用ください。<br>
+            MOD導入は自己責任でお願いいたします。プレイ動画へのご利用はご自由に。<br>なにか問題があれば削除します。
+        </div>
+        <div>
+          <p>VoiceModの作成方法は<a
+              href="https://forum.worldofwarships.asia/topic/14718-mod-voice-mod/?page=5&tab=comments#comment-448943"
+              target="_blank">こちら</a>のROKAさんのマニュアルが大変分かりやすいです。</p>
+        </div>
+        <div>
+          <div class="mt-5" id="address">
+            <h3 class="mt-5 border-bottom">連絡先</h3>
+            <p>Twitter <a href="https://twitter.com/mizuyu_85" target="_blank">瑞柚＠みずゆ</a></p>
+          </div>
+        </div>
+      </div>
+      <div id="sab-contents" class="col-3 d-none d-lg-block border-left">
+        <div class="mt-4">
+          <div>
+            <ul>
+              <li>UI MOD</li>
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-          integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-          crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-          integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-          crossorigin="anonymous"></script>
+              <li><a href="#syani">シャニマス</a></li>
+
+              <li><a href="#hinanavoice">市川雛菜</a></li>
+
+
+              <li>Voice MOD</li>
+
+              <li><a href="#syani">シャニマス</a></li>
+
+              <li><a href="#hinanavoice">市川雛菜</a></li>
+              <li><a href="#koitovoice">福丸小糸</a></li>
+              <li><a href="#manovoice">櫻木真乃</a></li>
+
+
+              <li><a href="#address">連絡先</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer" class="mt-5">
+
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
 </body>
 </html>
