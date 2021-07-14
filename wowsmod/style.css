@@ -1,6 +1,9 @@
 body {
     background-color: lightblue;
 }
+#header {
+    background-color: whitesmoke;
+}
 #main-contents{
     background-color: aliceblue;
 }
