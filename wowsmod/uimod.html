@@ -12,23 +12,30 @@
   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </head>
 <body>
-<div class="container-fluid">
-  <div class="sticky-top" id="header">
-
-    </div><div class="dropdown text-right">
-    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-      Menue
+<div id="header" class="sticky-top border-bottom">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">みずゆの森</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-      <button class="dropdown-item" type="button"><a href="#">TOP</a></button>
-      <button class="dropdown-item" type="button"><a href="uimod.html">UI mod</a></button>
-      <button class="dropdown-item" type="button"><a href="voicemod.html">voice mod</a></button>
-      <button class="dropdown-item" type="button"><a href="#address">連絡先</a></button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="voicemod.html">Voice mod</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="uimod.html">UI mod <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="uimod.html">UI mod</a>
+        </li>
+      </ul>
     </div>
-  </div>
-  <div class="col mb-2 border-bottom text-center">
-    <h2>みずゆの森</h2>
+  </nav>
+</div>
+<div class="container-fluid">
+  <div class="col mb-2 border-bottom text-center d-none d-md-block">
     <img src="images/wows-USA.jpg" alt="top image">
   </div>
   <div class="container">
