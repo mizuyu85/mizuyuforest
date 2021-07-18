@@ -19,3 +19,6 @@ h4 {
     border-left: 5px solid #000;
     background: lightsteelblue;
 }
+.image-vw {
+    width : 95vw ;
+}
